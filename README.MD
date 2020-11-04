@@ -10,3 +10,5 @@ pip install git+https://git@github.com/KittPhi/pip-package.git
 
 
 pip install git+ssh://git@github.com/rfschubert/ptolemaios-sdk-package.git
+
+pip install git+ssh://git@github.com/KittPhi/pip-package.git
