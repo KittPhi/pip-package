@@ -7,7 +7,8 @@
 
 pippackage
 ├── algorithms
-│   ├── __init__.py
+│   └── __init__.py
+├── README.MD
 └── setup.py
 
 ```python
@@ -25,6 +26,11 @@ setup(
     packages=['algorithms'],
     zip_safe=False
 )
+
+#test.py
+from pippackage import algorithms
+
+algorithms.hello_world()
 ```
 
 # Installing with pip:
